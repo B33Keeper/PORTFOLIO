@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
-  background: url('../assets/background.png') no-repeat center center fixed;
+  background: url('..//assets//background.png') no-repeat center center fixed;
   background-size: cover;
   color: white;
   position: relative;
@@ -22,7 +22,7 @@
 }
 
 /* Ensure content appears above the overlay */
-.about-page > * {
+.about-page  {
   position: relative;
   z-index: 2;
 }
@@ -33,6 +33,8 @@
   color: white;
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 260px;
+  margin-bottom: 300px;
 }
 
 .mission-statement {
@@ -105,14 +107,7 @@
   line-height: 1.6;
 }
 
-.about-footer {
-  text-align: center;
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.7);
-}
-
+ 
 @media (max-width: 768px) {
   .expertise-grid {
     grid-template-columns: 1fr;

@@ -58,9 +58,7 @@ const About = () => {
         </p>
       </div>
 
-      <footer className="about-footer">
-        © ByteForge 2023
-      </footer>
+ 
     </div>
   );
 };

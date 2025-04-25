@@ -14,6 +14,7 @@ const Hero = () => {
       <h1>ByteForge</h1>
       <ScrambleText text="Transforming Ideas into Intelligent Outcomes" />
       <p className="description">
+         
         We are ByteForge, a dynamic team of passionate IT students driven by
         curiosity, creativity, and a shared goal of forging innovative digital
         solutions. With diverse skill sets spanning software development, UI/UX

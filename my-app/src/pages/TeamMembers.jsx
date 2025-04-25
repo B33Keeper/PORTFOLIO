@@ -29,7 +29,7 @@ const TeamMembers = () => {
       image: "/team/jersey.png"
     },
     {
-      name: "Miguel Daza Luz",
+      name: "Filbert Dela Cruz",
       role: "Full Stack Developer",
       skills: [
         "HTML, CSS, JavaScript, React, Vue.js",
@@ -99,6 +99,7 @@ const TeamMembers = () => {
 
   return (
     <div className="team-members-page">
+      
       <div className="carousel-container">
         <div className="carousel-content">
           <div className={`member-card ${isTransitioning ? 'transitioning' : ''}`}>
