@@ -3,11 +3,11 @@ import './Team.css';
 
 const Team = () => {
   const teamMembers = [
-    { id: 1, imageUrl: '/Jersey Raval.png' },
-    { id: 2, imageUrl: '/Ivan Cielo.png' },
-    { id: 3, imageUrl: '/Patrick Raymond Benito.png' },
-    { id: 4, imageUrl: '/Filbert Dela Cruz.png' },
-    { id: 5, imageUrl: '/Malachi Lama.png' },
+    { id: 1, imageUrl: './Jersey Raval.png' },
+    { id: 2, imageUrl: './Ivan Cielo.png' },
+    { id: 3, imageUrl: './Patrick Raymond Benito.png' },
+    { id: 4, imageUrl: './Filbert Dela Cruz.png' },
+    { id: 5, imageUrl: './Malachi Lama.png' },
   ];
 
   return (
