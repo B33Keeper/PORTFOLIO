@@ -13,6 +13,7 @@
 .logo {
   width: 140px;
   margin-bottom: 2rem;
+  margin-top: 200px;
 }
 
 .custom-logo {
@@ -26,6 +27,7 @@ h1 {
   margin: 0.5rem 0;
   font-weight: 700;
   text-transform: none;
+  
 }
 
 h2 {

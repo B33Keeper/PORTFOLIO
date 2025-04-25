@@ -16,8 +16,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(139, 58, 58, 0.4) 0%, rgba(43, 27, 49, 0.4) 100%);
-  pointer-events: none;
+
 }
 
 .contact-container {
@@ -26,6 +25,7 @@
   padding: 2rem;
   position: relative;
   z-index: 1;
+  margin-top: 300px;
 }
 
 .contact-form {
@@ -190,14 +190,7 @@
   background: linear-gradient(135deg, #0077b5, #005582);
 }
 
-.contact-footer {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 2.5rem;
-  font-size: 0.95rem;
-  letter-spacing: 0.5px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+ 
 
 @media (max-width: 768px) {
   .contact-container {
